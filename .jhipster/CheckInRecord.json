@@ -1,0 +1,40 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "lastName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "firstName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "seatNumber",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "checkInTime",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "flightNumber",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "flightDate",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "bookingId",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20170123112830",
+    "entityTableName": "check_in_record",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "angularJSSuffix": "pAppSuffix"
+}

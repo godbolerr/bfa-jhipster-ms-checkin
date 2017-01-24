@@ -1,0 +1,19 @@
+
+entity CheckInRecord {
+	lastName String,
+    firstName String,
+    seatNumber String,
+    checkInTime LocalDate,
+    flightNumber String,
+    flightDate String,
+    bookingId Integer
+}
+
+paginate CheckInRecord with pagination
+
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl 
+// Set an angular suffix
+angularSuffix * with pAppSuffix
